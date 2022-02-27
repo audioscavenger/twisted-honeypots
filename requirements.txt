@@ -1,4 +1,7 @@
 wheel
 regex
-cryptography==2.3.1
+cryptography
+bcrypt
+pyasn1
+mysqlclient
 Twisted
