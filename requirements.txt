@@ -7,4 +7,4 @@ mysqlclient
 pyOpenSSL
 service_identity
 idna
-Twisted
+Twisted[tls]
