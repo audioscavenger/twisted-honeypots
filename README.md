@@ -26,9 +26,9 @@ services:
       PGID: 1000
       MYSQL_ROOT_PASSWORD: "changeme"
       MYSQL_LOG_CONSOLE: "true"
-      # MYSQL_DATABASE: phpmyadmin #optional
-      # MYSQL_USER: phpmyadmin #optional
-      # MYSQL_PASSWORD: 1p1gzuVP5aAi #optional
+      MYSQL_DATABASE: "pot_db"
+      MYSQL_USER: "pot_user"
+      MYSQL_PASSWORD: "changeme"
     ports:
       - "21:21"
       - "22:22"
@@ -48,7 +48,7 @@ apk --update --upgrade add git python3 py3-pip python3-dev curl sudo geoip libc-
 
 ```git clone https://github.com/lanjelot/twisted-honeypots /opt/twisted-honeypots
 cd /opt/twisted-honeypots
-./install.sh && ./setup-db.sh     # this will ask you for the mysql root password that is in the compose
+./install.sh && ./setup-db.sh
 ```
 
 # Usage #
