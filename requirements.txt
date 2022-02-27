@@ -4,4 +4,7 @@ cryptography
 bcrypt
 pyasn1
 mysqlclient
+pyOpenSSL
+service_identity
+idna
 Twisted
